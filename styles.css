@@ -16,7 +16,7 @@ body {
 .logo {
   position: relative;
   padding: 40px 0;
-  padding-left: 39px;
+  padding-left: 48px;
   font: bold 24px/31px 'pt_serifbold', arial, helvetica, sans-serif;
 }
 
@@ -48,8 +48,8 @@ body {
 
 .header-menu__item {
   position: relative;
-  margin-right: 26px;
-  font: 500 18px/18px 'robotobold', Arial, Helvetica, Sans-serif;
+  margin-right: 29px;
+  font: 500 18.5px/26px 'robotobold', Arial, Helvetica, Sans-serif;
   color: #000;
   text-decoration: none;
   transition: opacity .5s;
@@ -98,13 +98,13 @@ body {
 
 .main__title {
   padding-top: 75px;
-  font: bold 66px/88px 'pt_serifbold', arial, helvetica, sans-serif;
-  margin-bottom: 0 0 30px 0;
+  font: bold 67px/88px 'pt_serifbold', arial, helvetica, sans-serif;
+  margin: 0 0 30px 0;
 }
 
 .main__subtitle {
   font: 22px/26px 'robotobold', arial, helvetica, sans-serif;
-  margin-bottom: 0 0 41px 0;
+  margin: 0 0 62px 0;
 }
 
 .main__title-text_highlight {
@@ -112,7 +112,7 @@ body {
 }
 
 .main__button {
-  padding: 18px 21px;
+  padding: 18px 36px 18px 24px;
   font: 18px/21px 'robotobold', arial, helvetica, sans-serif;
   color: #FFFFFF;
   background: #0056EC;
