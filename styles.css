@@ -1,0 +1,7 @@
+.logo, .main__title {
+  font-family: 'PT Serif', serif;
+}
+
+.header-menu, .main__subtitle, .main__button {
+  font-family: 'Roboto', sans-serif;
+}
