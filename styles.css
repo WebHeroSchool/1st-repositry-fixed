@@ -3,7 +3,7 @@ body {
 }
 
 .wrapper {
-  width: 80%;
+  width: 79%;
   margin: auto;
 }
 
@@ -15,8 +15,8 @@ body {
 
 .logo {
   position: relative;
-  padding: 41px 0;
-  padding-left: 48px;
+  padding: 40px 0;
+  padding-left: 39px;
   font: bold 24px/31px 'pt_serifbold', arial, helvetica, sans-serif;
 }
 
@@ -44,21 +44,56 @@ body {
 .header-menu {
   display: flex;
   align-items: center;
-  font-size: 18px;
 }
 
 .header-menu__item {
-  padding: 0 13px;
+  position: relative;
+  margin-right: 26px;
+  font: 500 18px/18px 'robotobold', Arial, Helvetica, Sans-serif;
+  color: #000;
+  text-decoration: none;
+  transition: opacity .5s;
 }
 
 .header-menu__item:last-child {
    margin-right: 0;
  }
 
+ .header-menu__item_active:after {
+    display: block;
+    content: "";
+    position: absolute;
+    background: #0056EC;
+    width: 100%;
+    height: 3px;
+    left: 0;
+  }
+
+ .header-menu__item:hover {
+   opacity: .5;
+  }
+
+  .header-menu__item::after {
+   display: block;
+   content: "";
+   position: absolute;
+   background: #0056EC;
+   width: 0;
+   height: 2px;
+   left: 0;
+   transition: opacity .5s, width .5s;
+   opacity: 0;
+ }
+
+ .header-menu__item:hover::after, .header-menu__item_active:after {
+   opacity: 1;
+   width: 100%;
+ }
+
 .main__title {
   font-family: 'pt_serifbold', Arial, Helvetica, Sans-serif;
 }
 
-.header-menu, .main__subtitle, .main__button {
+.main__subtitle, .main__button {
   font-family: 'robotobold', Arial, Helvetica, Sans-serif;
 }
