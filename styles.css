@@ -1,7 +1,64 @@
-.logo, .main__title {
-  font-family: 'PT Serif', serif;
+body {
+  margin:0;
+}
+
+.wrapper {
+  width: 80%;
+  margin: auto;
+}
+
+.header {
+  display:flex;
+  justify-content: space-between;
+  margin-bottom: 100px;
+}
+
+.logo {
+  position: relative;
+  padding: 41px 0;
+  padding-left: 48px;
+  font: bold 24px/31px 'pt_serifbold', arial, helvetica, sans-serif;
+}
+
+.logo__circle {
+  position: absolute;
+  left: 0;
+  top: 50%;
+  transform: translateY(-50%);
+  width: 28px;
+  height: 28px;
+  border-radius: 50%;
+}
+
+.logo_circle_color_blue {
+  background: #C8DBFB;
+  opacity: .7;
+  left: 8px;
+  top: 56%;
+}
+
+.logo_circle_color_dark-blue {
+  background: #0056EC;
+}
+
+.header-menu {
+  display: flex;
+  align-items: center;
+  font-size: 18px;
+}
+
+.header-menu__item {
+  padding: 0 13px;
+}
+
+.header-menu__item:last-child {
+   margin-right: 0;
+ }
+
+.main__title {
+  font-family: 'pt_serifbold', Arial, Helvetica, Sans-serif;
 }
 
 .header-menu, .main__subtitle, .main__button {
-  font-family: 'Roboto', sans-serif;
+  font-family: 'robotobold', Arial, Helvetica, Sans-serif;
 }
