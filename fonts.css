@@ -4,7 +4,7 @@
 
 @font-face {
     font-family: 'robotothin_italic';
-    src: url('roboto-thinitalic-webfont.woff') format('woff');
+    src: url('fonts/roboto-thinitalic-webfont.woff') format('woff');
     font-weight: normal;
     font-style: normal;
 
@@ -15,7 +15,7 @@
 
 @font-face {
     font-family: 'pt_serifbold';
-    src: url('ptserif-bold-webfont.woff') format('woff');
+    src: url('fonts/ptserif-bold-webfont.woff') format('woff');
     font-weight: normal;
     font-style: normal;
 
@@ -26,7 +26,7 @@
 
 @font-face {
     font-family: 'pt_serifbold_italic';
-    src: url('ptserif-bolditalic-webfont.woff') format('woff');
+    src: url('fonts/ptserif-bolditalic-webfont.woff') format('woff');
     font-weight: normal;
     font-style: normal;
 
@@ -37,7 +37,7 @@
 
 @font-face {
     font-family: 'pt_serifitalic';
-    src: url('ptserif-italic-webfont.woff') format('woff');
+    src: url('fonts/ptserif-italic-webfont.woff') format('woff');
     font-weight: normal;
     font-style: normal;
 
@@ -48,7 +48,7 @@
 
 @font-face {
     font-family: 'pt_serifregular';
-    src: url('ptserif-regular-webfont.woff') format('woff');
+    src: url('fonts/ptserif-regular-webfont.woff') format('woff');
     font-weight: normal;
     font-style: normal;
 
@@ -59,7 +59,7 @@
 
 @font-face {
     font-family: 'robotoblack';
-    src: url('roboto-black-webfont.woff') format('woff');
+    src: url('fonts/roboto-black-webfont.woff') format('woff');
     font-weight: normal;
     font-style: normal;
 
@@ -70,7 +70,7 @@
 
 @font-face {
     font-family: 'robotoblack_italic';
-    src: url('roboto-blackitalic-webfont.woff') format('woff');
+    src: url('fonts/roboto-blackitalic-webfont.woff') format('woff');
     font-weight: normal;
     font-style: normal;
 
@@ -81,7 +81,7 @@
 
 @font-face {
     font-family: 'robotobold';
-    src: url('roboto-bold-webfont.woff') format('woff');
+    src: url('fonts/roboto-bold-webfont.woff') format('woff');
     font-weight: normal;
     font-style: normal;
 
@@ -92,7 +92,7 @@
 
 @font-face {
     font-family: 'robotothin';
-    src: url('roboto-thin-webfont.woff') format('woff');
+    src: url('fonts/roboto-thin-webfont.woff') format('woff');
     font-weight: normal;
     font-style: normal;
 
@@ -103,7 +103,7 @@
 
 @font-face {
     font-family: 'robotoregular';
-    src: url('roboto-regular-webfont.woff') format('woff');
+    src: url('fonts/roboto-regular-webfont.woff') format('woff');
     font-weight: normal;
     font-style: normal;
 
@@ -114,7 +114,7 @@
 
 @font-face {
     font-family: 'robotobold_italic';
-    src: url('roboto-bolditalic-webfont.woff') format('woff');
+    src: url('fonts/roboto-bolditalic-webfont.woff') format('woff');
     font-weight: normal;
     font-style: normal;
 
@@ -125,7 +125,7 @@
 
 @font-face {
     font-family: 'robotoitalic';
-    src: url('roboto-italic-webfont.woff') format('woff');
+    src: url('fonts/roboto-italic-webfont.woff') format('woff');
     font-weight: normal;
     font-style: normal;
 
