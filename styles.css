@@ -122,3 +122,90 @@ body {
 
 .main__button:hover {
   opacity: .5;
+}
+
+@media (max-width:1366px) {
+  .wrapper {
+    width: 68.5%;
+    margin: auto;
+  }
+
+  .header {
+    padding-left: 4px;
+    margin-bottom: 100px;
+  }
+
+  .logo {
+    padding-left: 44px;
+  }
+
+  .header-menu__item {
+    padding-top: 7px;
+    margin-right: 26px;
+    font: 500 14px/16px 'robotobold', Arial, Helvetica, Sans-serif;
+  }
+
+  .header-menu__item:last-child {
+     margin-right: 6px;
+   }
+
+  .main {
+    padding-right: 50%;
+    padding-bottom: 206px;
+    background-size: 50%;
+  }
+  .main__title {
+     font: bold 50.5px/66px 'pt_serifbold', arial, helvetica, sans-serif;
+     margin: 0 0 34px 0;
+     padding: 0 2px;
+   }
+
+   .main__subtitle {
+     font: 18px/21px 'robotobold', arial, helvetica, sans-serif;
+     margin: 0 0 55px 0;
+     padding: 2px;
+   }
+
+   .main__button {
+    padding: 12px 26px 12px 18px;
+    font: 14px/16px 'robotobold', arial, helvetica, sans-serif;
+  }
+}
+
+@media (max-width:768px) {
+  .header-menu {
+    display: none;
+  }
+
+  .header {
+    margin-bottom: 28px;
+  }
+
+  .logo {
+    visibility: hidden;
+  }
+
+  .logo__circle {
+    visibility: visible;
+  }
+  .main {
+    padding: 74% 0 0;
+    background-size: 74%;
+    background-position: top center;
+    text-align: center;
+  }
+
+  .main__title {
+    font: bold 30px/39px pt_serif, arial, helvetica, sans-serif;
+    margin-bottom: 44px;
+  }
+
+  .main__subtitle {
+    font: 500 16px/19px Roboto, arial, helvetica, sans-serif;
+      margin-bottom: 25px;
+  }
+
+  .main__button {
+    font: 500 14px/16px Roboto, arial, helvetica, sans-serif;
+  }
+}
