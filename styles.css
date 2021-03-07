@@ -103,6 +103,7 @@ body {
 }
 
 .main__subtitle {
+  padding-right: 100px;
   font: 22px/26px 'robotobold', arial, helvetica, sans-serif;
   margin: 0 0 62px 0;
 }
@@ -112,12 +113,14 @@ body {
 }
 
 .main__button {
+  position: relative;
   padding: 18px 36px 18px 24px;
   font: 18px/21px 'robotobold', arial, helvetica, sans-serif;
   color: #FFFFFF;
   background: #0056EC;
   border-radius: 4px;
   text-decoration: none;
+  margin-bottom: 279px;
 }
 
 .main__button:hover {
@@ -127,12 +130,11 @@ body {
 @media (max-width:1366px) {
   .wrapper {
     width: 68.5%;
-    margin: auto;
   }
 
   .header {
     padding-left: 4px;
-    margin-bottom: 100px;
+    margin-bottom: 85px;
   }
 
   .logo {
@@ -157,13 +159,13 @@ body {
   .main__title {
      font: bold 50.5px/66px 'pt_serifbold', arial, helvetica, sans-serif;
      margin: 0 0 34px 0;
-     padding: 0 2px;
+     padding: 14px 2px 3px 2px;
    }
 
    .main__subtitle {
      font: 18px/21px 'robotobold', arial, helvetica, sans-serif;
-     margin: 0 0 55px 0;
-     padding: 2px;
+     margin: 0 0 53px 0;
+     padding: 2px 100px 0 0;
    }
 
    .main__button {
@@ -172,40 +174,120 @@ body {
   }
 }
 
+@media (max-width:1024px) {
+  .wrapper {
+    width: 91%;
+  }
+
+  .header {
+    padding-left: 0;
+  }
+  .header-menu__item:last-child {
+     margin-right: 0;
+   }
+
+  .main__title {
+    font-size: 50px;
+  }
+
+  .main__button {
+      padding: 11px 25px 14px 15px;
+      font: 14px/24px 'robotobold', arial, helvetica, sans-serif;
+  }
+}
+
 @media (max-width:768px) {
   .header-menu {
     display: none;
   }
 
+  .wrapper {
+    width: 87%;
+}
+
   .header {
-    margin-bottom: 28px;
+    height: 79px;
+    margin-bottom: 7px;
   }
 
   .logo {
+    height: 30px;
     visibility: hidden;
+    padding: 2px 0 44px 1px;
   }
 
   .logo__circle {
     visibility: visible;
   }
+
+  #checkbox {
+    visibility: hidden;
+  }
+
+  .burger-menu__box {
+    visibility: hidden;
+    position: relative;
+    z-index: 2;
+    background: #FFF;
+  }
+
+  .burger-menu {
+    position: fixed;
+    top: 32px;
+    right: 24px;
+    background: right no-repeat url(img/Group16.svg);
+    width: 25px;
+    height: 17px;
+    cursor: pointer;
+    z-index: 3;
+  }
+
+  #checkbox:checked ~ .burger-menu {
+    background: right no-repeat url(img/Group16cross.svg);
+    width: 19.8px;
+    height: 19.8px;
+    right: 26px;
+    top: 30px;
+  }
+
+  #checkbox:checked ~ .burger-menu__box {
+    visibility: visible;
+    list-style: none;
+  }
+
+  .burger-menu__item {
+    text-align: center;
+    text-decoration: none;
+    color: #000;
+    font: 500 30px/35px 'robotobold', Arial, Helvetica, Sans-serif;
+  }
+
+  #checkbox:checked ~ .logo-circle, .main {
+    position: relative;
+    z-index: 1;
+  }
+
   .main {
     padding: 74% 0 0;
-    background-size: 74%;
+    background-size: 86%;
     background-position: top center;
     text-align: center;
   }
 
   .main__title {
-    font: bold 30px/39px pt_serif, arial, helvetica, sans-serif;
-    margin-bottom: 44px;
+    padding: 20px 0 0 5px;
+    font: bold 30px/39px 'pt_serifbold', arial, helvetica, sans-serif;
+    margin-bottom: 33px;
   }
 
   .main__subtitle {
-    font: 500 16px/19px Roboto, arial, helvetica, sans-serif;
-      margin-bottom: 25px;
+    padding: 0 10%;
+    font: 500 16px/19px 'robotobold', arial, helvetica, sans-serif;
+    margin-bottom: 39px;
   }
 
   .main__button {
-    font: 500 14px/16px Roboto, arial, helvetica, sans-serif;
+    font: 500 14px/16px 'robotobold', arial, helvetica, sans-serif;
+    padding: 13px 27px 11px 18px;
   }
 }
