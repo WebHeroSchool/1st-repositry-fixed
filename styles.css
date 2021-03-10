@@ -10,7 +10,7 @@ body {
 .header {
   display:flex;
   justify-content: space-between;
-  margin-bottom: 130px;
+  margin-bottom: 120px;
 }
 
 .logo {
@@ -39,6 +39,14 @@ body {
 
 .logo_circle_color_dark-blue {
   background: #0056EC;
+}
+
+#checkbox {
+  visibility: hidden;
+}
+
+.burger-menu__box {
+  visibility: hidden;
 }
 
 .header-menu {
@@ -134,7 +142,7 @@ body {
 
   .header {
     padding-left: 4px;
-    margin-bottom: 85px;
+    margin-bottom: 75px;
   }
 
   .logo {
@@ -142,7 +150,6 @@ body {
   }
 
   .header-menu__item {
-    padding-top: 7px;
     margin-right: 26px;
     font: 500 14px/16px 'robotobold', Arial, Helvetica, Sans-serif;
   }
@@ -220,12 +227,11 @@ body {
     visibility: visible;
   }
 
-  #checkbox {
-    visibility: hidden;
-  }
-
   .burger-menu__box {
-    visibility: hidden;
+    display: block;
+    content: '';
+    width: 100vw;
+    height: 100vh;
     position: relative;
     z-index: 2;
     background: #FFF;
@@ -259,6 +265,7 @@ body {
     text-align: center;
     text-decoration: none;
     color: #000;
+
     font: 500 30px/35px 'robotobold', Arial, Helvetica, Sans-serif;
   }
 
@@ -281,7 +288,7 @@ body {
   }
 
   .main__subtitle {
-    padding: 0 10%;
+    padding: 0 10% 0 12%;
     font: 500 16px/19px 'robotobold', arial, helvetica, sans-serif;
     margin-bottom: 39px;
   }
