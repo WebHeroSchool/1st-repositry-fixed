@@ -10,7 +10,7 @@ body {
 .header {
   display:flex;
   justify-content: space-between;
-  margin-bottom: 120px;
+  margin-bottom: 130px;
 }
 
 .logo {
@@ -23,7 +23,7 @@ body {
 .logo__circle {
   position: absolute;
   left: 0;
-  top: 50%;
+  top: 44%;
   transform: translateY(-50%);
   width: 28px;
   height: 28px;
@@ -33,20 +33,21 @@ body {
 .logo_circle_color_blue {
   background: #C8DBFB;
   opacity: .7;
-  left: 8px;
+  left: 12px;
   top: 56%;
 }
 
 .logo_circle_color_dark-blue {
   background: #0056EC;
+  margin: 5px;
 }
 
 #checkbox {
-  visibility: hidden;
+  display: none;
 }
 
 .burger-menu__box {
-  visibility: hidden;
+  display: none;
 }
 
 .header-menu {
@@ -56,7 +57,7 @@ body {
 
 .header-menu__item {
   position: relative;
-  margin-right: 27px;
+  margin-right: 25px;
   font: 500 18px/26px 'robotobold', Arial, Helvetica, Sans-serif;
   color: #000;
   text-decoration: none;
@@ -64,7 +65,7 @@ body {
 }
 
 .header-menu__item:last-child {
-   margin-right: 7px;
+   margin-right: 9px;
  }
 
  .header-menu__item_active:after {
@@ -142,11 +143,23 @@ body {
 
   .header {
     padding-left: 4px;
-    margin-bottom: 75px;
+    margin-bottom: 85px;
+  }
+
+  .header-menu {
+    margin-top: 9px;
   }
 
   .logo {
     padding-left: 44px;
+  }
+
+  .logo_circle_color_dark-blue {
+    margin: 5px 0;
+  }
+
+  .logo_circle_color_blue {
+    left: 9px;
   }
 
   .header-menu__item {
@@ -209,7 +222,9 @@ body {
   }
 
   .wrapper {
+    padding-left: 24px;
     width: 87%;
+    margin: 0;
 }
 
   .header {
@@ -228,13 +243,18 @@ body {
   }
 
   .burger-menu__box {
-    display: block;
-    content: '';
+    display: flex;
+    flex-direction: column;
+    visibility: hidden;
+    left: -11%;
+    margin: 0 10px 0 0;
+    padding: 169px 40px 0 0;
     width: 100vw;
     height: 100vh;
-    position: relative;
+    position: absolute;
     z-index: 2;
     background: #FFF;
+    text-align: center;
   }
 
   .burger-menu {
@@ -262,10 +282,11 @@ body {
   }
 
   .burger-menu__item {
-    text-align: center;
     text-decoration: none;
+    display: block;
+    margin-left: 80px;
+    padding: 13px 0;
     color: #000;
-
     font: 500 30px/35px 'robotobold', Arial, Helvetica, Sans-serif;
   }
 
