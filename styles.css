@@ -1,5 +1,6 @@
 body {
   margin:0;
+  overflow: hidden;
 }
 
 .wrapper {
@@ -217,6 +218,7 @@ body {
 }
 
 @media (max-width:768px) {
+
   .header-menu {
     display: none;
   }
@@ -243,14 +245,15 @@ body {
   }
 
   .burger-menu__box {
+    overflow: auto;
     display: flex;
     flex-direction: column;
     visibility: hidden;
     left: -11%;
     margin: 0 10px 0 0;
     padding: 169px 40px 0 0;
-    width: 100vw;
-    height: 100vh;
+    width: 100%;
+    height: 100%;
     position: absolute;
     z-index: 2;
     background: #FFF;
@@ -267,6 +270,7 @@ body {
     cursor: pointer;
     z-index: 3;
   }
+
 
   #checkbox:checked ~ .burger-menu {
     background: right no-repeat url(img/Group16cross.svg);
