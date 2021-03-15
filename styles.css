@@ -30,6 +30,7 @@ body {
   width: 28px;
   height: 28px;
   border-radius: 50%;
+  cursor: pointer;
 }
 
 .logo_circle_color_blue {
@@ -37,11 +38,41 @@ body {
   opacity: .7;
   left: 12px;
   top: 56%;
+  animation: color1 3s ease-in-out;
+}
+
+@keyframes color1 {
+  0% {
+    background: #C8DBFB;
+    opacity: .7;
+  }
+  50% {
+    background: #0056EC;
+    opacity: none;
+  }
+  100% {
+    background: #C8DBFB;
+    opacity: .7;
+  }
 }
 
 .logo_circle_color_dark-blue {
   background: #0056EC;
   margin: 5px;
+  animation: color2 3s ease-in-out;
+}
+
+@keyframes color2 {
+  0% {
+    background: #0056EC;
+  }
+  50% {
+    background: #C8DBFB;
+    opacity: .7;
+  }
+  100% {
+    background: #0056EC;
+  }
 }
 
 #checkbox {
